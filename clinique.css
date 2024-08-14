@@ -1,0 +1,516 @@
+@font-face {
+    font-family: bold1;
+    src: url(font/HelveticaNeue-Bold.woff2);
+}
+@font-face {
+    font-family: regular;
+    src: url(font/HelveticaNeue-Regular.woff2);
+}
+@font-face {
+    font-family: light1;
+    src: url(font/HelveticaNeue-Light.woff2);
+
+}
+@font-face {
+    font-family: medium1;
+    src: url(font/HelveticaNeue-Medium.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: CliniqueHelveticaNeueLight, Sans-Serif;;
+}
+.headre1{
+    background-color: black;
+    color: white;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-family: light1;
+    font-size: 14px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.signin{
+    display: flex;
+    gap: 30px;
+    font-family: light1;
+    font-size: 14px;
+}
+.bag{
+    height: 20px;
+}
+.clinqfont{
+    
+    font-size: xx-large;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: medium1;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(165, 215, 188);
+    height:10px;
+}
+.image-container{
+    background-image: url(image/smart_serum_lmw_p_@2x.avif);
+    width: 40 rem;
+    height: 100%;
+    background-size: cover;
+    padding-left: 100px;
+}
+.main{
+    height: 685px;
+}
+.search{
+    height: 20px;
+}
+.image-text{
+    font-size:60px;
+    font-family:light1;
+
+}
+.image-text1{
+    font-size: 20px;
+    
+}
+.sub-btn{
+    background-color: black;
+    color: white;
+    width:200px;
+    height:50px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+   
+}
+.image-text2{
+    font-size: 11px;
+    
+}
+.imgcon1{
+    padding: 203px 0;
+}
+.image{
+    
+    display: flex;
+    cursor: pointer;
+    margin: 40px;
+}
+.one{
+    width: 443px;
+    height:443px;
+
+}
+.images{
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 20px;
+    
+}
+
+.first{
+    width:850px;
+    height: 450px ;
+}
+.years{
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.overnight{
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Clinicaly{
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.smart{
+    color: black;
+}
+.now1{
+    color: black;
+}
+.now2{
+    color: black;
+}
+.sectionheading{
+    padding-top: 60px;
+    font-size: 30px;
+margin: 40px;
+}
+.firstimagerow1{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.secondimagerow1{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.thirdimagerow1{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.fourthimagerow1{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.sectionimages1{
+    display: flex;
+    gap:30px;
+    cursor: pointer;
+margin: 40px;
+}
+.firstimagerow2{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.secondimagerow2{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.thirdimagerow2{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.fourthimagerow2{
+    width:325px;
+    height:325px;
+    gap:30px;
+}
+.sectionimages2{
+    display: flex;
+    padding-top: 15px;
+    gap:30px;
+    cursor: pointer;
+    margin: 40px;
+}
+.secondsectionheading{
+    padding-top: 60px;
+    font-size: 30px;
+    margin: 40px;
+}
+.firstimagerow3{
+    width:320px;
+    height:400px;
+    
+}
+.secondimagerow3{
+    width:320px;
+    height:400px;
+    
+}
+.thirdimagerow3{
+    width:320px;
+    height:400px;
+    
+}
+.fourthimagerow3{
+    width:320px;
+    height:400px;
+    
+}
+.sectionimages{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    gap:10px;
+    cursor: pointer;
+}
+.secondsectionheading{
+    padding-bottom: 40px;
+    
+}
+.price1{
+    font: 14px;
+    font-family: CliniqueHelveticaNeueRegular, HelveticaNeue, Sans-Serif;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.mainpart{
+    height: 685px;
+  
+  
+}
+.container{
+    background-image: url(background\ image\ 2.avif);
+    width: 1421px;
+    height: 610px ;
+    background-size: cover;
+    padding-left: 100px;
+    
+}
+.imagecon1{
+    padding: 203px 0;
+}
+.text{
+    font-size:60px;
+    font-family:light1;
+
+}
+.text1{
+    font-size: 20px;
+    
+}
+.sub-button{
+    background-color: black;
+    color: white;
+    width:200px;
+    height:50px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+   
+}
+.two-btn{
+background-color:transparent;
+    color: rgb(0, 0, 0);
+    width:200px;
+    height:50px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+padding-left: 20px;
+border:#1a1a1a;
+border-style: solid;
+}
+
+.thirdsectionheading{
+    padding-bottom: 15px;
+    font-size: 30px;
+    padding: 10px 50px;
+}
+.sunscreen{
+    padding: 10px 50px;
+}
+.SHOPSPF-btn{
+    width: 220px;
+    height: 45px;
+    font-size: 14x;
+    cursor: pointer;
+}
+.firstimagerow4{
+    width: 320px;
+    height: 400px;
+}
+.price2{
+    font: 14px;
+    font-family: CliniqueHelveticaNeueRegular, HelveticaNeue, Sans-Serif;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+.secondimagerow4{
+    width: 320px;
+    height: 400px;
+}
+.thirdimagerow4{
+    width: 320px;
+    height: 400px;
+}
+.with{
+    width:320px;
+    height: 48px;
+}
+.fourthsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.fifthsectionheading{
+    padding-bottom: 15px;
+    font-size: 30px;
+    padding: 10px 50px;
+
+}
+.fifthimages{
+    width:325px;
+    height:325px;
+   justify-content: space-between;
+   display: flex;
+   gap: 20px;
+   padding: 10px 50px;
+}
+.sixthsection{
+    width:1519px;
+    height: 438px;
+    
+}
+.great{
+    padding-left: 70px;
+    font-size: 30px;
+    padding-top: 60px;
+}
+.seventhimage1{
+    padding-bottom: 15px;
+    font-size: 30px;
+    padding: 0px 50px;
+ }
+
+.free{
+    padding-left: 70px;
+    padding-bottom: 20px;
+    
+}
+.rewards{
+    width: 325px;
+    height: 72px;
+    padding-left: 70px;
+}
+.learn{
+    padding: 0px 70px;
+    color: black;
+}
+.seventhimage2{
+    padding-bottom: 15px;
+    font-size: 30px;
+    padding: 0px 70px;
+    width: 325px;
+    height: 72px;
+}
+
+.seventhsection{
+    display: flex;
+    
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    
+}
+.accordion li{
+    list-style: none;
+    width: 900px;
+    
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500px;
+    background: #ffffff;
+    margin-bottom: 2px;
+    curson:pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.footer{
+    background-color: rgb(145, 224, 175);
+    width:100%;
+    height: 300px;
+    padding: 70px 60px;
+    display: flex;
+}
+.footer1{
+       font-size:35px;
+    font-family:light1;
+
+}
+.footerimage1{
+    font-size: 15px;
+    
+}
+.footer2{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+.notice{
+    color: #1a1a1a;
+}
+.emailaddress{
+    justify-content: space-between;
+}
+.submitfinal{
+    border: none;
+    background-color:rgb(145, 224, 175);
+    cursor: pointer;
+}
+.rightsection{
+    padding-left: 290px;
+    padding-top: 110px;
+}
+.finalcolor{
+    color: rgb(240, 46, 46);
+    padding-top: 25px;
+}
+
+.lastfooter{
+    padding: 50px 15px 10px;
+    color: #777;
+margin: 40px;
+}
+.lastfooter .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.lastfooter .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.lastfooter .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.change-btn{
+    padding-left: 1100px;
+}
+.language-btn{
+    padding: 5px 20px;
+}
+.row1{
+    display: flex;
+}
+.section1{
+    display: flex;
+    margin: 40px;
+}
